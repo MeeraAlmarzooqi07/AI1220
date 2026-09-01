@@ -1,0 +1,276 @@
+2026-09-01 11:18:40.292 [info] [main] Log level: Info
+2026-09-01 11:18:40.292 [info] [main] Validating found git in: "/usr/bin/git"
+2026-09-01 11:18:40.308 [info] [main] Using git "2.39.5 (Apple Git-154)" from "/usr/bin/git"
+2026-09-01 11:18:40.308 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-01 11:18:40.309 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-01 11:18:50.196 [info] > git rev-parse --show-toplevel [11ms]
+2026-09-01 11:18:50.196 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-01 12:09:51.160 [info] > git rev-parse --show-toplevel [12ms]
+2026-09-01 12:12:41.100 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/Users/meera.almarzooqi/Downloads/lab02_start/sealed". Error:Error: ENOENT: no such file or directory, realpath '/Users/meera.almarzooqi/Downloads/lab02_start/sealed'
+2026-09-01 12:12:42.917 [info] > git rev-parse --show-toplevel [15ms]
+2026-09-01 12:13:00.860 [info] > git rev-parse --show-toplevel [16ms]
+2026-09-01 12:13:00.877 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [16ms]
+2026-09-01 12:13:00.882 [info] [Model][openRepository] Opened repository (path): /Users/meera.almarzooqi/Desktop/soft&web/untitled folder/lab 2
+2026-09-01 12:13:00.882 [info] [Model][openRepository] Opened repository (real path): /Users/meera.almarzooqi/Desktop/soft&web/untitled folder/lab 2
+2026-09-01 12:13:00.882 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-01 12:13:00.895 [info] > git config --get commit.template [12ms]
+2026-09-01 12:13:00.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2026-09-01 12:13:00.908 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-09-01 12:13:00.908 [info] > git status -z -uall [12ms]
+2026-09-01 12:13:00.920 [info] > git config --get commit.template [8ms]
+2026-09-01 12:13:00.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [10ms]
+2026-09-01 12:13:00.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [10ms]
+2026-09-01 12:13:00.932 [info] > git config --get --local branch.main.vscode-merge-base [12ms]
+2026-09-01 12:13:00.932 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-01 12:13:00.935 [info] > git status -z -uall [14ms]
+2026-09-01 12:13:00.936 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2026-09-01 12:13:00.944 [info] > git reflog main --grep-reflog=branch: Created from *. [11ms]
+2026-09-01 12:13:00.953 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2026-09-01 12:13:00.954 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-09-01 12:13:00.954 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-09-01 12:13:00.968 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [9ms]
+2026-09-01 12:13:01.507 [info] > git check-ignore -v -z --stdin [11ms]
+2026-09-01 12:17:01.400 [info] > git check-ignore -v -z --stdin [12ms]
+2026-09-01 12:19:06.244 [info] > git add -A -- . [18ms]
+2026-09-01 12:19:06.254 [info] > git config --get commit.template [9ms]
+2026-09-01 12:19:06.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [10ms]
+2026-09-01 12:19:06.264 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-09-01 12:19:06.264 [info] > git status -z -uall [9ms]
+2026-09-01 12:19:06.278 [info] > git -c user.useConfigOnly=true commit --quiet [12ms]
+2026-09-01 12:19:06.278 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-09-01 12:19:06.287 [info] > git config --get-all user.name [9ms]
+2026-09-01 12:19:06.295 [info] > git config --get commit.template [8ms]
+2026-09-01 12:19:06.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [8ms]
+2026-09-01 12:19:06.304 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-09-01 12:19:06.304 [info] > git status -z -uall [8ms]
+2026-09-01 12:19:06.631 [info] > git ls-files --stage -- sealed/change-C-labloans.md [14ms]
+2026-09-01 12:19:06.632 [info] > git show --textconv HEAD:sealed/change-C-labloans.md [16ms]
+2026-09-01 12:19:06.632 [info] > git ls-tree -l HEAD -- sealed/change-C-labloans.md [14ms]
+2026-09-01 12:19:06.633 [info] > git show --textconv :sealed/change-C-labloans.md [18ms]
+2026-09-01 12:19:06.644 [info] > git hash-object -t tree /dev/null [11ms]
+2026-09-01 12:19:06.644 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-C-labloans.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-C-labloans.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:19:06.644 [info] > git hash-object -t tree /dev/null [11ms]
+2026-09-01 12:19:06.644 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-C-labloans.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-C-labloans.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:19:06.644 [info] > git cat-file -s b5a17a4c30dc45255df09332e6af4c2ac379c22f [12ms]
+2026-09-01 12:19:06.662 [info] > git blame --root --incremental 21fb62a7f42ccd1935577f3dbf469c3a94fcfc16 -- sealed/change-C-labloans.md [12ms]
+2026-09-01 12:19:06.662 [info] fatal: no such path sealed/change-C-labloans.md in 21fb62a7f42ccd1935577f3dbf469c3a94fcfc16
+2026-09-01 12:19:07.537 [info] > git config --get commit.template [21ms]
+2026-09-01 12:19:07.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [19ms]
+2026-09-01 12:19:07.551 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-09-01 12:19:07.551 [info] > git status -z -uall [13ms]
+2026-09-01 12:19:07.626 [info] > git ls-files --stage -- sealed/change-C-labloans.md [14ms]
+2026-09-01 12:19:07.638 [info] > git cat-file -s b5a17a4c30dc45255df09332e6af4c2ac379c22f [12ms]
+2026-09-01 12:19:07.649 [info] > git show --textconv :sealed/change-C-labloans.md [11ms]
+2026-09-01 12:21:06.562 [info] > git ls-files --stage -- BACKLOG.md [14ms]
+2026-09-01 12:21:06.563 [info] > git show --textconv :BACKLOG.md [16ms]
+2026-09-01 12:21:06.574 [info] > git cat-file -s 6883b4741d69de6195babbf16fba04e48cea25e9 [11ms]
+2026-09-01 12:21:07.073 [info] > git check-ignore -v -z --stdin [16ms]
+2026-09-01 12:21:07.199 [info] > git ls-files --stage -- PLAN.md [15ms]
+2026-09-01 12:21:07.199 [info] > git show --textconv :PLAN.md [15ms]
+2026-09-01 12:21:07.212 [info] > git cat-file -s 0d025e43efab748d3bbdff348a623235958707d3 [13ms]
+2026-09-01 12:21:07.708 [info] > git check-ignore -v -z --stdin [17ms]
+2026-09-01 12:21:08.143 [info] > git ls-files --stage -- SPRINT.md [16ms]
+2026-09-01 12:21:08.144 [info] > git show --textconv :SPRINT.md [17ms]
+2026-09-01 12:21:08.157 [info] > git cat-file -s cfe1b3514f09f308c9044a39b62e09d1203901c5 [14ms]
+2026-09-01 12:21:08.641 [info] > git check-ignore -v -z --stdin [8ms]
+2026-09-01 12:23:40.260 [info] > git ls-files --stage -- SPRINT.md [13ms]
+2026-09-01 12:23:40.270 [info] > git cat-file -s cfe1b3514f09f308c9044a39b62e09d1203901c5 [10ms]
+2026-09-01 12:23:44.878 [info] > git ls-files --stage -- sealed/change-A-campuseats.md [14ms]
+2026-09-01 12:23:44.878 [info] > git show --textconv :sealed/change-A-campuseats.md [15ms]
+2026-09-01 12:23:44.891 [info] > git cat-file -s adbe0e4c58e9c5274f7d97ddb7468cfdc71def76 [13ms]
+2026-09-01 12:23:45.376 [info] > git check-ignore -v -z --stdin [8ms]
+2026-09-01 12:24:20.214 [info] > git ls-files --stage -- sealed/change-A-campuseats.md [13ms]
+2026-09-01 12:24:20.225 [info] > git cat-file -s adbe0e4c58e9c5274f7d97ddb7468cfdc71def76 [11ms]
+2026-09-01 12:24:57.717 [info] > git ls-files --stage -- sealed/change-A-campuseats.md [12ms]
+2026-09-01 12:24:57.729 [info] > git cat-file -s adbe0e4c58e9c5274f7d97ddb7468cfdc71def76 [11ms]
+2026-09-01 12:25:09.071 [info] > git ls-files --stage -- sealed/change-B-studymatch.md [13ms]
+2026-09-01 12:25:09.072 [info] > git show --textconv :sealed/change-B-studymatch.md [15ms]
+2026-09-01 12:25:09.084 [info] > git cat-file -s 5e07ac6da11b343751dbdaac5b792fea34ce2e26 [12ms]
+2026-09-01 12:25:09.587 [info] > git check-ignore -v -z --stdin [20ms]
+2026-09-01 12:25:13.939 [info] > git ls-files --stage -- sealed/change-C-labloans.md [16ms]
+2026-09-01 12:25:13.940 [info] > git show --textconv :sealed/change-C-labloans.md [18ms]
+2026-09-01 12:25:13.952 [info] > git cat-file -s b5a17a4c30dc45255df09332e6af4c2ac379c22f [13ms]
+2026-09-01 12:25:14.442 [info] > git check-ignore -v -z --stdin [11ms]
+2026-09-01 12:25:18.879 [info] > git ls-files --stage -- sealed/change-A-campuseats.md [17ms]
+2026-09-01 12:25:18.880 [info] > git show --textconv :sealed/change-A-campuseats.md [18ms]
+2026-09-01 12:25:18.892 [info] > git cat-file -s adbe0e4c58e9c5274f7d97ddb7468cfdc71def76 [13ms]
+2026-09-01 12:25:29.791 [info] > git ls-files --stage -- sealed/change-A-campuseats.md [14ms]
+2026-09-01 12:25:29.802 [info] > git cat-file -s adbe0e4c58e9c5274f7d97ddb7468cfdc71def76 [10ms]
+2026-09-01 12:25:45.203 [info] > git blame --root --incremental 21fb62a7f42ccd1935577f3dbf469c3a94fcfc16 -- sealed/change-A-campuseats.md [18ms]
+2026-09-01 12:25:45.203 [info] fatal: no such path sealed/change-A-campuseats.md in 21fb62a7f42ccd1935577f3dbf469c3a94fcfc16
+2026-09-01 12:27:17.179 [info] > git ls-files --stage -- sealed/change-A-campuseats.md [13ms]
+2026-09-01 12:27:17.190 [info] > git cat-file -s adbe0e4c58e9c5274f7d97ddb7468cfdc71def76 [11ms]
+2026-09-01 12:27:23.403 [info] > git ls-files --stage -- sealed/change-B-studymatch.md [13ms]
+2026-09-01 12:27:23.404 [info] > git show --textconv :sealed/change-B-studymatch.md [15ms]
+2026-09-01 12:27:23.416 [info] > git cat-file -s 5e07ac6da11b343751dbdaac5b792fea34ce2e26 [12ms]
+2026-09-01 12:27:47.352 [info] > git ls-files --stage -- sealed/change-B-studymatch.md [10ms]
+2026-09-01 12:27:47.362 [info] > git cat-file -s 5e07ac6da11b343751dbdaac5b792fea34ce2e26 [10ms]
+2026-09-01 12:32:54.874 [info] > git ls-files --stage -- sealed/change-B-studymatch.md [11ms]
+2026-09-01 12:32:54.887 [info] > git cat-file -s 5e07ac6da11b343751dbdaac5b792fea34ce2e26 [12ms]
+2026-09-01 12:33:31.554 [info] > git config --get commit.template [16ms]
+2026-09-01 12:33:31.554 [info] > git ls-files --stage -- sealed/change-B-studymatch.md [15ms]
+2026-09-01 12:33:31.555 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [15ms]
+2026-09-01 12:33:31.567 [info] > git cat-file -s 5e07ac6da11b343751dbdaac5b792fea34ce2e26 [13ms]
+2026-09-01 12:33:31.567 [info] > git status -z -uall [12ms]
+2026-09-01 12:33:31.568 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-09-01 12:33:32.201 [info] > git check-ignore -v -z --stdin [16ms]
+2026-09-01 12:42:15.232 [info] > git ls-files --stage -- PLAN.md [15ms]
+2026-09-01 12:42:15.233 [info] > git show --textconv :PLAN.md [16ms]
+2026-09-01 12:42:15.244 [info] > git cat-file -s 0d025e43efab748d3bbdff348a623235958707d3 [11ms]
+2026-09-01 12:42:15.750 [info] > git ls-files --stage -- BACKLOG.md [17ms]
+2026-09-01 12:42:15.751 [info] > git show --textconv :BACKLOG.md [18ms]
+2026-09-01 12:42:15.764 [info] > git cat-file -s 6883b4741d69de6195babbf16fba04e48cea25e9 [14ms]
+2026-09-01 12:42:58.568 [info] > git ls-files --stage -- BACKLOG.md [10ms]
+2026-09-01 12:42:58.579 [info] > git cat-file -s 6883b4741d69de6195babbf16fba04e48cea25e9 [10ms]
+2026-09-01 12:43:01.450 [info] > git -c user.useConfigOnly=true commit --quiet [19ms]
+2026-09-01 12:43:01.450 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-09-01 12:43:01.464 [info] > git config --get-all user.name [12ms]
+2026-09-01 12:43:01.476 [info] > git config --get commit.template [12ms]
+2026-09-01 12:43:01.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2026-09-01 12:43:01.487 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-09-01 12:43:01.487 [info] > git status -z -uall [10ms]
+2026-09-01 12:43:06.747 [info] > git -c user.useConfigOnly=true commit --quiet [20ms]
+2026-09-01 12:43:06.747 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-09-01 12:43:06.761 [info] > git config --get-all user.name [12ms]
+2026-09-01 12:43:06.772 [info] > git config --get commit.template [11ms]
+2026-09-01 12:43:06.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2026-09-01 12:43:06.784 [info] > git status -z -uall [11ms]
+2026-09-01 12:43:06.784 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-09-01 12:43:10.573 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR --find-renames=50% 25d80c35bbbdbb48ec93fb524696e349eed23ca4 21fb62a7f42ccd1935577f3dbf469c3a94fcfc16 [18ms]
+2026-09-01 12:43:11.095 [info] > git check-ignore -v -z --stdin [13ms]
+2026-09-01 12:43:11.383 [info] > git ls-tree -l 21fb62a7f42ccd1935577f3dbf469c3a94fcfc16 -- README.md [13ms]
+2026-09-01 12:43:11.384 [info] > git ls-tree -l 25d80c35bbbdbb48ec93fb524696e349eed23ca4 -- README.md [15ms]
+2026-09-01 12:43:11.384 [info] > git show --textconv 25d80c35bbbdbb48ec93fb524696e349eed23ca4:README.md [16ms]
+2026-09-01 12:43:11.384 [info] > git show --textconv 21fb62a7f42ccd1935577f3dbf469c3a94fcfc16:README.md [15ms]
+2026-09-01 12:43:11.899 [info] > git check-ignore -v -z --stdin [20ms]
+2026-09-01 12:43:34.503 [info] > git -c user.useConfigOnly=true commit --quiet [19ms]
+2026-09-01 12:43:34.503 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-09-01 12:43:34.516 [info] > git config --get-all user.name [12ms]
+2026-09-01 12:43:34.528 [info] > git config --get commit.template [10ms]
+2026-09-01 12:43:34.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [10ms]
+2026-09-01 12:43:34.539 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-09-01 12:43:34.539 [info] > git status -z -uall [10ms]
+2026-09-01 12:43:43.360 [info] > git ls-files --stage -- BACKLOG.md [15ms]
+2026-09-01 12:43:43.361 [info] > git show --textconv :BACKLOG.md [16ms]
+2026-09-01 12:43:43.375 [info] > git cat-file -s 6883b4741d69de6195babbf16fba04e48cea25e9 [14ms]
+2026-09-01 12:43:45.042 [info] > git branch [20ms]
+2026-09-01 12:43:45.057 [info] > git reset -q HEAD -- BACKLOG.md [14ms]
+2026-09-01 12:43:45.069 [info] > git config --get commit.template [10ms]
+2026-09-01 12:43:45.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2026-09-01 12:43:45.080 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-09-01 12:43:45.080 [info] > git status -z -uall [10ms]
+2026-09-01 12:43:46.208 [info] > git branch [20ms]
+2026-09-01 12:43:46.222 [info] > git reset -q HEAD -- PLAN.md [14ms]
+2026-09-01 12:43:46.234 [info] > git config --get commit.template [11ms]
+2026-09-01 12:43:46.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [10ms]
+2026-09-01 12:43:46.245 [info] > git status -z -uall [10ms]
+2026-09-01 12:43:46.246 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-09-01 12:43:46.257 [info] > git config --get commit.template [10ms]
+2026-09-01 12:43:46.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [10ms]
+2026-09-01 12:43:46.268 [info] > git status -z -uall [10ms]
+2026-09-01 12:43:46.268 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-09-01 12:43:47.533 [info] > git ls-files --stage -- BACKLOG.md [12ms]
+2026-09-01 12:43:47.533 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/BACKLOG.md?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2FBACKLOG.md%22%2C%22ref%22%3A%22%22%7D
+2026-09-01 12:43:47.849 [info] > git branch [20ms]
+2026-09-01 12:43:47.861 [info] > git reset -q HEAD -- SPRINT.md [12ms]
+2026-09-01 12:43:47.873 [info] > git config --get commit.template [11ms]
+2026-09-01 12:43:47.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [11ms]
+2026-09-01 12:43:47.884 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-09-01 12:43:47.885 [info] > git status -z -uall [10ms]
+2026-09-01 12:43:49.186 [info] > git ls-files --stage -- BACKLOG.md [23ms]
+2026-09-01 12:43:49.186 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/BACKLOG.md?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2FBACKLOG.md%22%2C%22ref%22%3A%22%22%7D
+2026-09-01 12:43:50.440 [info] > git ls-files --stage -- sealed/change-C-labloans.md [13ms]
+2026-09-01 12:43:50.441 [info] > git ls-tree -l HEAD -- sealed/change-C-labloans.md [14ms]
+2026-09-01 12:43:50.441 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-C-labloans.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-C-labloans.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:50.441 [info] > git show --textconv :sealed/change-C-labloans.md [16ms]
+2026-09-01 12:43:50.441 [info] > git show --textconv HEAD:sealed/change-C-labloans.md [15ms]
+2026-09-01 12:43:50.442 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-C-labloans.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-C-labloans.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:50.453 [info] > git cat-file -s b5a17a4c30dc45255df09332e6af4c2ac379c22f [12ms]
+2026-09-01 12:43:51.063 [info] > git ls-files --stage -- sealed/change-B-studymatch.md [19ms]
+2026-09-01 12:43:51.064 [info] > git show --textconv HEAD:sealed/change-B-studymatch.md [21ms]
+2026-09-01 12:43:51.064 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-B-studymatch.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-B-studymatch.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:51.064 [info] > git ls-tree -l HEAD -- sealed/change-B-studymatch.md [18ms]
+2026-09-01 12:43:51.064 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-B-studymatch.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-B-studymatch.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:51.065 [info] > git show --textconv :sealed/change-B-studymatch.md [23ms]
+2026-09-01 12:43:51.077 [info] > git cat-file -s 5e07ac6da11b343751dbdaac5b792fea34ce2e26 [12ms]
+2026-09-01 12:43:51.288 [info] > git config --get commit.template [14ms]
+2026-09-01 12:43:51.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [14ms]
+2026-09-01 12:43:51.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-09-01 12:43:51.302 [info] > git status -z -uall [13ms]
+2026-09-01 12:43:51.328 [info] > git ls-files --stage -- sealed/change-A-campuseats.md [10ms]
+2026-09-01 12:43:51.329 [info] > git ls-tree -l HEAD -- sealed/change-A-campuseats.md [11ms]
+2026-09-01 12:43:51.329 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-A-campuseats.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-A-campuseats.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:51.329 [info] > git show --textconv :sealed/change-A-campuseats.md [12ms]
+2026-09-01 12:43:51.329 [info] > git show --textconv HEAD:sealed/change-A-campuseats.md [12ms]
+2026-09-01 12:43:51.329 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-A-campuseats.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-A-campuseats.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:51.338 [info] > git cat-file -s adbe0e4c58e9c5274f7d97ddb7468cfdc71def76 [10ms]
+2026-09-01 12:43:51.633 [info] > git ls-files --stage -- sealed/change-B-studymatch.md [15ms]
+2026-09-01 12:43:51.633 [info] > git ls-tree -l HEAD -- sealed/change-B-studymatch.md [15ms]
+2026-09-01 12:43:51.634 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-B-studymatch.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-B-studymatch.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:51.634 [info] > git show --textconv :sealed/change-B-studymatch.md [18ms]
+2026-09-01 12:43:51.634 [info] > git show --textconv HEAD:sealed/change-B-studymatch.md [17ms]
+2026-09-01 12:43:51.634 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-B-studymatch.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-B-studymatch.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:51.645 [info] > git cat-file -s 5e07ac6da11b343751dbdaac5b792fea34ce2e26 [12ms]
+2026-09-01 12:43:51.922 [info] > git ls-files --stage -- sealed/change-A-campuseats.md [16ms]
+2026-09-01 12:43:51.923 [info] > git ls-tree -l HEAD -- sealed/change-A-campuseats.md [17ms]
+2026-09-01 12:43:51.923 [warning] [GitFileSystemProvider][stat] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-A-campuseats.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-A-campuseats.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:51.923 [info] > git show --textconv :sealed/change-A-campuseats.md [18ms]
+2026-09-01 12:43:51.923 [info] > git show --textconv HEAD:sealed/change-A-campuseats.md [18ms]
+2026-09-01 12:43:51.923 [warning] [GitFileSystemProvider][readFile] File not found - git:/Users/meera.almarzooqi/Desktop/soft%26web/untitled%20folder/lab%202/sealed/change-A-campuseats.md.git?%7B%22path%22%3A%22%2FUsers%2Fmeera.almarzooqi%2FDesktop%2Fsoft%26web%2Funtitled%20folder%2Flab%202%2Fsealed%2Fchange-A-campuseats.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-09-01 12:43:51.935 [info] > git cat-file -s adbe0e4c58e9c5274f7d97ddb7468cfdc71def76 [13ms]
+2026-09-01 12:43:54.662 [info] > git ls-files --stage -- .DS_Store [13ms]
+2026-09-01 12:43:54.662 [info] > git show --textconv :.DS_Store [13ms]
+2026-09-01 12:43:54.675 [info] > git cat-file -s faa4dffe4f87307360d7cebb55038fab65892f50 [13ms]
+2026-09-01 12:43:54.688 [info] > git ls-files --stage -- .DS_Store [11ms]
+2026-09-01 12:43:54.698 [info] > git cat-file -s faa4dffe4f87307360d7cebb55038fab65892f50 [10ms]
+2026-09-01 12:43:54.709 [info] > git ls-files --stage -- .DS_Store [9ms]
+2026-09-01 12:43:54.718 [info] > git cat-file -s faa4dffe4f87307360d7cebb55038fab65892f50 [9ms]
+2026-09-01 12:43:55.178 [info] > git check-ignore -v -z --stdin [23ms]
